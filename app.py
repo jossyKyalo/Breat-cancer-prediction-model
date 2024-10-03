@@ -2,10 +2,10 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load the trained model
+# Loading  the trained model
 model = joblib.load('breast_cancer_model.pkl')
 
-# Set up Streamlit title and input form
+# Setting up Streamlit title and input form
 st.title('Breast Cancer Prediction App')
 
 st.write('Enter tumor characteristics to predict if the tumor is benign or malignant:')
